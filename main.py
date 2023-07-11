@@ -1,5 +1,4 @@
-#your code here!
-
-#read in the miles and read in the gallons used.
-
-#display the miles per gallon
+miles_driven = float(input())
+gallons_used = float(input())
+miles_per_gallon = miles_driven / gallons_used
+print(miles_per_gallon)
